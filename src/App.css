@@ -1,0 +1,18 @@
+.en-li{
+  position: relative;
+}
+
+.details{
+  visibility: hidden;
+  position:absolute;
+  top:55px;
+  right:-35px;
+  background-color:darkslategray;
+  
+  padding: 20px 35px;
+}
+
+
+.en-li:hover .details{
+  visibility: visible;
+}
