@@ -127,7 +127,7 @@
                         </div> */}
         
                         <div className="form-group">
-                    <Link onClick={e=> (this.state.name!==pname || this.state.password!==ppass)? (e.preventDefault()):null }   to="/welcome" >
+                    <Link onClick={e=> (this.state.name!==pname || this.state.password!==ppass)? ( alert('Invalid Credentials') || e.preventDefault()):null }   to="/welcome" >
                                 <button className="btn btn-md btn-success">Submit</button>
                                 </Link>       
                             
